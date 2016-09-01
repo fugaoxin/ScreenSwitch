@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB851F81D77FACF00138DA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB851F71D77FACF00138DA7 /* main.m */; };
+		ECB851FB1D77FACF00138DA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB851FA1D77FACF00138DA7 /* AppDelegate.m */; };
+		ECB851FE1D77FACF00138DA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB851FD1D77FACF00138DA7 /* ViewController.m */; };
+		ECB852011D77FACF00138DA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB851FF1D77FACF00138DA7 /* Main.storyboard */; };
+		ECB852031D77FACF00138DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB852021D77FACF00138DA7 /* Assets.xcassets */; };
+		ECB852061D77FACF00138DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB852041D77FACF00138DA7 /* LaunchScreen.storyboard */; };
+		ECB852111D77FACF00138DA7 /* ScreenSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB852101D77FACF00138DA7 /* ScreenSwitchTests.m */; };
+		ECB8521C1D77FACF00138DA7 /* ScreenSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB8521B1D77FACF00138DA7 /* ScreenSwitchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB8520D1D77FACF00138DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB851EB1D77FACF00138DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB851F21D77FACF00138DA7;
+			remoteInfo = ScreenSwitch;
+		};
+		ECB852181D77FACF00138DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB851EB1D77FACF00138DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB851F21D77FACF00138DA7;
+			remoteInfo = ScreenSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB851F31D77FACF00138DA7 /* ScreenSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB851F71D77FACF00138DA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB851F91D77FACF00138DA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECB851FA1D77FACF00138DA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECB851FC1D77FACF00138DA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECB851FD1D77FACF00138DA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECB852001D77FACF00138DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB852021D77FACF00138DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB852051D77FACF00138DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB852071D77FACF00138DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB8520C1D77FACF00138DA7 /* ScreenSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB852101D77FACF00138DA7 /* ScreenSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenSwitchTests.m; sourceTree = "<group>"; };
+		ECB852121D77FACF00138DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB852171D77FACF00138DA7 /* ScreenSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB8521B1D77FACF00138DA7 /* ScreenSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenSwitchUITests.m; sourceTree = "<group>"; };
+		ECB8521D1D77FACF00138DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB851F01D77FACF00138DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB852091D77FACF00138DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB852141D77FACF00138DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB851EA1D77FACF00138DA7 = {
+			isa = PBXGroup;
+			children = (
+				ECB851F51D77FACF00138DA7 /* ScreenSwitch */,
+				ECB8520F1D77FACF00138DA7 /* ScreenSwitchTests */,
+				ECB8521A1D77FACF00138DA7 /* ScreenSwitchUITests */,
+				ECB851F41D77FACF00138DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB851F41D77FACF00138DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB851F31D77FACF00138DA7 /* ScreenSwitch.app */,
+				ECB8520C1D77FACF00138DA7 /* ScreenSwitchTests.xctest */,
+				ECB852171D77FACF00138DA7 /* ScreenSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB851F51D77FACF00138DA7 /* ScreenSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				ECB851F91D77FACF00138DA7 /* AppDelegate.h */,
+				ECB851FA1D77FACF00138DA7 /* AppDelegate.m */,
+				ECB851FC1D77FACF00138DA7 /* ViewController.h */,
+				ECB851FD1D77FACF00138DA7 /* ViewController.m */,
+				ECB851FF1D77FACF00138DA7 /* Main.storyboard */,
+				ECB852021D77FACF00138DA7 /* Assets.xcassets */,
+				ECB852041D77FACF00138DA7 /* LaunchScreen.storyboard */,
+				ECB852071D77FACF00138DA7 /* Info.plist */,
+				ECB851F61D77FACF00138DA7 /* Supporting Files */,
+			);
+			path = ScreenSwitch;
+			sourceTree = "<group>";
+		};
+		ECB851F61D77FACF00138DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB851F71D77FACF00138DA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB8520F1D77FACF00138DA7 /* ScreenSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB852101D77FACF00138DA7 /* ScreenSwitchTests.m */,
+				ECB852121D77FACF00138DA7 /* Info.plist */,
+			);
+			path = ScreenSwitchTests;
+			sourceTree = "<group>";
+		};
+		ECB8521A1D77FACF00138DA7 /* ScreenSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8521B1D77FACF00138DA7 /* ScreenSwitchUITests.m */,
+				ECB8521D1D77FACF00138DA7 /* Info.plist */,
+			);
+			path = ScreenSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB851F21D77FACF00138DA7 /* ScreenSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB852201D77FACF00138DA7 /* Build configuration list for PBXNativeTarget "ScreenSwitch" */;
+			buildPhases = (
+				ECB851EF1D77FACF00138DA7 /* Sources */,
+				ECB851F01D77FACF00138DA7 /* Frameworks */,
+				ECB851F11D77FACF00138DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenSwitch;
+			productName = ScreenSwitch;
+			productReference = ECB851F31D77FACF00138DA7 /* ScreenSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB8520B1D77FACF00138DA7 /* ScreenSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB852231D77FACF00138DA7 /* Build configuration list for PBXNativeTarget "ScreenSwitchTests" */;
+			buildPhases = (
+				ECB852081D77FACF00138DA7 /* Sources */,
+				ECB852091D77FACF00138DA7 /* Frameworks */,
+				ECB8520A1D77FACF00138DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB8520E1D77FACF00138DA7 /* PBXTargetDependency */,
+			);
+			name = ScreenSwitchTests;
+			productName = ScreenSwitchTests;
+			productReference = ECB8520C1D77FACF00138DA7 /* ScreenSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB852161D77FACF00138DA7 /* ScreenSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB852261D77FACF00138DA7 /* Build configuration list for PBXNativeTarget "ScreenSwitchUITests" */;
+			buildPhases = (
+				ECB852131D77FACF00138DA7 /* Sources */,
+				ECB852141D77FACF00138DA7 /* Frameworks */,
+				ECB852151D77FACF00138DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB852191D77FACF00138DA7 /* PBXTargetDependency */,
+			);
+			name = ScreenSwitchUITests;
+			productName = ScreenSwitchUITests;
+			productReference = ECB852171D77FACF00138DA7 /* ScreenSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB851EB1D77FACF00138DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					ECB851F21D77FACF00138DA7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ECB8520B1D77FACF00138DA7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECB851F21D77FACF00138DA7;
+					};
+					ECB852161D77FACF00138DA7 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECB851F21D77FACF00138DA7;
+					};
+				};
+			};
+			buildConfigurationList = ECB851EE1D77FACF00138DA7 /* Build configuration list for PBXProject "ScreenSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB851EA1D77FACF00138DA7;
+			productRefGroup = ECB851F41D77FACF00138DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB851F21D77FACF00138DA7 /* ScreenSwitch */,
+				ECB8520B1D77FACF00138DA7 /* ScreenSwitchTests */,
+				ECB852161D77FACF00138DA7 /* ScreenSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB851F11D77FACF00138DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB852061D77FACF00138DA7 /* LaunchScreen.storyboard in Resources */,
+				ECB852031D77FACF00138DA7 /* Assets.xcassets in Resources */,
+				ECB852011D77FACF00138DA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8520A1D77FACF00138DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB852151D77FACF00138DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB851EF1D77FACF00138DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB851FE1D77FACF00138DA7 /* ViewController.m in Sources */,
+				ECB851FB1D77FACF00138DA7 /* AppDelegate.m in Sources */,
+				ECB851F81D77FACF00138DA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB852081D77FACF00138DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB852111D77FACF00138DA7 /* ScreenSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB852131D77FACF00138DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8521C1D77FACF00138DA7 /* ScreenSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB8520E1D77FACF00138DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB851F21D77FACF00138DA7 /* ScreenSwitch */;
+			targetProxy = ECB8520D1D77FACF00138DA7 /* PBXContainerItemProxy */;
+		};
+		ECB852191D77FACF00138DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB851F21D77FACF00138DA7 /* ScreenSwitch */;
+			targetProxy = ECB852181D77FACF00138DA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB851FF1D77FACF00138DA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB852001D77FACF00138DA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB852041D77FACF00138DA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB852051D77FACF00138DA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB8521E1D77FACF00138DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB8521F1D77FACF00138DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB852211D77FACF00138DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fgx.com.ScreenSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECB852221D77FACF00138DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScreenSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fgx.com.ScreenSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECB852241D77FACF00138DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fgx.com.ScreenSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSwitch.app/ScreenSwitch";
+			};
+			name = Debug;
+		};
+		ECB852251D77FACF00138DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScreenSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fgx.com.ScreenSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenSwitch.app/ScreenSwitch";
+			};
+			name = Release;
+		};
+		ECB852271D77FACF00138DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fgx.com.ScreenSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECB852281D77FACF00138DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScreenSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fgx.com.ScreenSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScreenSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB851EE1D77FACF00138DA7 /* Build configuration list for PBXProject "ScreenSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8521E1D77FACF00138DA7 /* Debug */,
+				ECB8521F1D77FACF00138DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB852201D77FACF00138DA7 /* Build configuration list for PBXNativeTarget "ScreenSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB852211D77FACF00138DA7 /* Debug */,
+				ECB852221D77FACF00138DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB852231D77FACF00138DA7 /* Build configuration list for PBXNativeTarget "ScreenSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB852241D77FACF00138DA7 /* Debug */,
+				ECB852251D77FACF00138DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB852261D77FACF00138DA7 /* Build configuration list for PBXNativeTarget "ScreenSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB852271D77FACF00138DA7 /* Debug */,
+				ECB852281D77FACF00138DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB851EB1D77FACF00138DA7 /* Project object */;
+}
